@@ -44,12 +44,6 @@ The repository tree is never modified. The instrumented copies are applied only 
 - `-out` output directory (default `reports/bcov`)
 - `-scope` comma-separated directories under root to measure (default `cmd,internal`)
 
-## Private repository
+## License
 
-While the repository is private, Go needs access to fetch it:
-
-```bash
-export GOPRIVATE=github.com/fupacat/bcov
-```
-
-and git credentials for `github.com/fupacat`.
+`bcov` is licensed under the [PolyForm Strict License 1.0.0](LICENSE.md). You may use it for any noncommercial purpose, for example to measure branch coverage or to reproduce another project's coverage evidence. You may not modify, redistribute or sell it. Other terms may be available later.
